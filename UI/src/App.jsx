@@ -100,7 +100,7 @@ function PatrimoineValue() {
         onClick={calculerValeur} 
       />
       {valeurPatrimoine !== null && (
-        <p>Valeur du patrimoine  : {valeurPatrimoine} Ar</p>
+        <p>Valeur du patrimoine  = {valeurPatrimoine} Ar</p>
       )}
     </div>
   );
